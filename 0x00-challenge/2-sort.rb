@@ -25,7 +25,7 @@ ARGV.each do |arg|
             break
         end
     end
-    result << i if !is_inserted
+    result << i_arg
 end
 
 puts result
