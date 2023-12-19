@@ -9,16 +9,15 @@ class Square:
         self.height = height
 
     def area_of_my_square(self):
-        """The area of the square."""
-        return self.width * self.height
+        """ Area of the square """
+        return self.width * self.width
 
-    def perimeter_of_my_square(self):
-        """Cal the perimeter."""
+    def PermiterOfMySquare(self):
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """string."""
         return "{}/{}".format(self.width, self.height)
+
 
 
 if __name__ == "__main__":
